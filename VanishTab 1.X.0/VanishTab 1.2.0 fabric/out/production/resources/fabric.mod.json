@@ -1,0 +1,20 @@
+{
+	"schemaVersion": 1,
+	"id": "vtab",
+	"version": "${version}",
+	"name": "VanishTab",
+	"description": "Hides a player from the tab list with /vtab.",
+	"authors": ["TwojNick"],
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"main": ["niko_ku.vtab.VTab"]
+	},
+	"mixins": ["vtab.mixins.json"],
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
